@@ -1,0 +1,20 @@
+
+Após um tempo de estudo e muito trabalho, vim compartilhar com vocês um dos meus maiores projetos que até hoje tem funcionamento em uma empresa de Internet e Telecomunicações!
+
+Este aplicativo foi feito em VISUAL BASIC com a intenção de solucionar um problema/dor dos técnicos em campo!
+
+  💡 Qual era o problema/dor dos técnicos de campo:
+     O tempo para configurar roteadores do modelo NOKIA G-140 ou similar, era IGUAL ou MAIOR a 30 minutos, pois este modelo de equipamento necessita
+     de SCRIPTs para configurar e habilitar cada funcionalidade, nas quais são:
+
+         -NOME DAS REDES 2G e 5G
+         -SENHAS DAS REDES 2G e 5G
+         -VLAN
+         -PPPoE
+         -Senha PPPoE;e
+         -Gerenciamento Remoto.
+
+    💡Com o intuito de solucionar a demora de "setar" todos os SCRIPTs manualmente para configuração, foi feito um aplicativo em Visual Basics com a interface INTUITIVA para o Técnico
+em campo, para abrir o aplicativo e preencher e selecionar todas as configurações/Ferramentas no equipamento.
+Ao final do preenchimento, ao clicar "Configurar Agora", o equipamento reiniciava em 5 minutos já com as configurações setadas, diminuindo o tempo de espera do técnico e da autenticação
+do equipamento.
