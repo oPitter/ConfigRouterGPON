@@ -1,0 +1,17 @@
+Example Connection String:
+Server=GOOEYTOP\SQLEXPRESS;Database=TFTPUtil;User ID=testuser;Password=testpassword;Connection Timeout=5
+
+Database table I used in SQL server express:
+USE [TFTPUtil]
+GO
+/****** Object:  Table [dbo].[TFTPUtil Log]    Script Date: 12/21/2005 07:53:48 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TFTPUtil Log](
+	[EventDatetime] [datetime] NOT NULL,
+	[EventLevel] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[EventMessage] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+

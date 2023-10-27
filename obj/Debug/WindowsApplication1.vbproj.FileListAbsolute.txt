@@ -1,0 +1,86 @@
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Deivid\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.main.resources
+C:\Users\Deivid\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+D:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.main.resources
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+D:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form3.resources
+H:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+H:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+H:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+H:\Programas\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojAssemblyReference.cache
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form3.resources
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.main.resources
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.cache
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+H:\Programas\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojAssemblyReference.cache
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form3.resources
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.main.resources
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.cache
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\05960331179\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+Y:\soul config\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+Y:\soul config\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+Y:\soul config\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+Y:\soul config\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojAssemblyReference.cache
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form3.resources
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.main.resources
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.cache
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+Y:\soul config\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.mainSThh.resources
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.AssemblyReference.cache
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form3.resources
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.mainSThh.resources
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.cache
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.CoreCompileInputs.cache
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Pitter\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb

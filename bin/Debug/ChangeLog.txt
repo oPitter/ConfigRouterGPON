@@ -1,0 +1,461 @@
+==============================================================================
+TFTPUtil Version 1.4.5
+
+Added/Changed:
+Nothing
+
+Fixed:
+Fixed issue with using the TFTP client and acknowledging TFTP options
+Fixed issue with exception being thrown at app startup
+
+Known Bugs at Release:
+None
+==============================================================================
+TFTPUtil Version 1.4.0
+
+Added/Changed:
+Upgraded version of NSIS installer
+
+Fixed:
+Upgraded project to visual studio 2008
+Fix for issue with server possibly not responding when simultaneous requests 
+	come in
+Fixed possible issue with not catching an exception
+Fixed issue with allowing access to subdirectories
+
+Known Bugs at Release:
+None
+==============================================================================
+TFTPUtil Version 1.3.0
+
+Added/Changed:
+Updated to latest version of NSIS installer
+Changed locking to try to only lock when needed
+Added more various debug messages in the "debug" and "verbose" event levels
+
+Fixed:
+Fixed 1594196: Was not closing the event callback. Also now explicity setting 
+	some objects to null on destruction
+Fixed 1591790: Options dialog should now increases its size if needsed and 
+	has close option
+Fixed 1596841: The client GUI was not sending data after seeing and OACK
+	when putting a file on a server
+Bug when closing the GUI
+Case where we were calling logger directly
+Duplicate log entries
+Crash would occure if the client GUI tried to send a file that didn't exist
+Was not correctly handling a case where the server could not find a file
+Incorrectly closing when sessions are active
+Incorrectly incrementing bytes received when getting duplicate blocks
+
+Known Bugs at Release:
+None
+
+==============================================================================
+TFTPUtil Version 1.2.1
+
+Added/Changed:
+Upgraded version of NSIS installer
+
+Fixed:
+Vista has IPv6 on by default which can make the GUI choose an IPv6 address
+  instead of an IPv4.  We now only show and will choose an IPv4 address
+
+Known Bugs at Release:
+None
+
+==============================================================================
+TFTPUtil Version 1.2.0
+
+Added/Changed:
+Made changes to show assembly name in TFTPServer class to help with rebranding
+Updated some XML comments
+Upgraded version of NSIS installer
+We now show the TFTP error message if we receive one
+TFTPUtil Client example program now autosizes
+
+Fixed:
+Grammar on timeout message
+Possible bug when updating the status of a tooltip and a timeout occurs.
+We are now letting the socket choose the port instead of us coming up with a
+	random port
+Was converting a static string with one character to char type
+We were NOT expliciting telling the socket to send the data in the async
+	callback when we should have been
+Incorrectly showing some transfers were successfull (Bug 1540688, 1536670)
+Missing null check when seeing what the selected interface was in the options
+    form (Bug 1533479)
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 1.1.1
+
+Added/Changed:
+Upgraded installer to NSIS 2.18 and now checks for needed version of
+	MS windows installer and shows license
+Made changes to show assembly name in GUI to help with rebranding
+
+Fixed:
+Fixed bug (1521861) that would crash the tftp client on startup
+Incorrectly restarting TFTP server thread when checking for "any" IP
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 1.1
+
+Added/Changed:
+GUI now allows you to save what IP address to listen on and specify any
+Upgraded installer to NSIS 2.17
+
+Fixed:
+Bug where you could NOT put a file via the tftp client
+Support request 1490114: problem with ip address binding
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 1.0
+
+Added/Changed:
+Upgraded installer to NSIS 2.16
+
+Fixed:
+Problem when copying file through GUI and then transfering
+Feature Request 1461565 was really a bug fix, the main lvEvents was
+	scrolling horizontally not vertically
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 1.0 RC1
+
+Added/Changed:
+Can now clear the log in the client GUI example program
+We now send TFTP error message 8 if there is a bad TFTP option
+When we receive the files size on a write request we will now show
+	the progress of the transfer
+Ability to clear a selected event and also stop a selected transfer
+Installer can install source code
+
+Fixed:
+Found another case where we wouldn't close the state if we had a timeout
+TFTPUtil Client GUI example now uses TFTP options correctly
+Dragging and dropping files works again
+Stopping the server and re-starting works again
+Numerous errors relating to TFTP options
+Cases where we would show the file transfering in the GUI events when
+	there was really an error or timeout that occured
+Build date on CVN versions
+Numberous errors in TFTP Client example program
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 0.9.1
+
+Added/Changed:
+Ability to clear log in GUI
+
+Fixed:
+Forgot to remove the process that was closed from the gui list
+Problem with states being left active
+Removed percentage of transfer done when receiving a file being shown in 
+	GUI since we don't know the filesize we can't calculate this
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 0.9.0
+
+Added/Changed:
+Changed version to variable for subversion builds
+Removed TFTPServerProcess ability to handle multiple connections since
+	that is handled by the TFTPServer and the TFTPServerProcess should
+	only have one connection
+Progress bar is not displayed once connection is finished
+GUI now shows log seperately and transfers in their own window
+
+Fixed:
+Exception that could occur when closing GUI window at start
+Exception that could occur the GUI was found to not be listening
+Problem with TFTP process not listening on correct IP
+Issue with progress bar crashing gui
+Another problem when there are no registry entries
+
+Known Bugs at Realse:
+None
+
+=========================================================================
+TFTPUtil Version 0.8.3
+
+Added/Changed:
+None
+
+Fixed:
+Fixed crash that would occur if you had no blocked IPs
+
+Known Bugs at Realse:
+None
+
+=========================================================================
+TFTPUtil Version 0.8.0 - 0.8.2
+
+Added/Changed:
+Changed how and when we send transfer events to GUI
+Redid the options page in the GUI
+Added basic IP security
+Added deconstructors to more gracefully close resources
+All threads are now considered "background" threads to help with the
+	posibility of a thread still running when the app is closed
+
+Fixed:
+I miss read the TFTP RFC and wasn't changing the source port we were
+	using for connections; each new connection spawns a thread
+Fixed possible exception when displaying alert window
+Fixed crash that would occur when a session was active and the program
+	was closing (bug in 0.8.0)
+Fixed bug that would cause any transfer to be responded with an illegal
+	TFTP operation message (bug in 0.8.0)
+Fixed bug that would prevent us from receiving a file (bug in 0.8.1)
+Fixed possible exception that could occur when receiving a TFTP ERROR
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 0.7.1
+
+Added/Changed:
+Alert window now show bytes transfered
+
+Fixed:
+Progress bar would not show progress
+Fixed problem with transparency
+
+Known Bugs at Release:
+None
+
+=========================================================================
+TFTPUtil Version 0.7.0
+
+Added/Changed:
+Ability to turn on and off if the alert window closes
+Added preliminary TFTP client example program
+Added comments to most classes which reduces compiler warnings about
+	XML comments
+Clicking on the number of transfers in GUI rechecks number of transfers
+Added options to make alert window transparent or not
+
+Fixed:
+Exception could occur if there is no Internet connection and you check
+	for the latest version
+Exception could occur when closing the GUI when the server did not
+	start successfully
+Alert window would not close when receiving file
+If transfer timed out we would not close transfer state
+GUI would not update listening IP address if changed in options
+Fixed exception when closing main GUI when alert window is active
+Number of active transfers could be incorrect
+Fixed another exception that could occur when closing GUI
+
+Known Bugs at Release:
+None
+
+To Do Moved to ReadMe
+
+=========================================================================
+TFTPUtil Version 0.6.1
+
+Added/Changed:
+GUI can now check if there is a newer version available
+
+Fixed:
+Regular expression used for filename security was matching to much
+Fixed email logging problem by changing something in nspring
+Possible exception could occur when form is closing and we are checking
+	to see if the server is still listening
+
+Known Bugs at Release:
+None
+
+To Do (in no order):
+Add multicast option support
+Add documentation
+Create a TFTP client example program
+
+=========================================================================
+TFTPUtil Version 0.6.0
+
+Added/Changed:
+Feature Request 1398691: Ability to drag files on TFTP Server and copy
+	them to the current TFTP root directory
+Feature Request 1398654: Event message now shows if a client requests
+	a file that doesnt exist instead of a generic error
+Feature Request 1398670: Slowed down transfer alert window disapearing
+We non search for "..\" and drive letter in file path and remove
+Removed email logging until the error is figured out
+You can now move the alert window
+
+Fixed:
+Once again an attempt at fixing the problem where the GUI doesnt think
+	the server started the first time the program is loaded
+
+Known Bugs at Release:
+None
+
+To Do (in no order):
+Add multicast option support
+Add documentation
+Review SendOptions method
+Create a TFTP client example program
+Fix email logging
+
+=========================================================================
+TFTPUtil Version 0.5.2
+
+Added/Changed:
+Added description to folder dialog in options
+Added to tooltip for SQL logging help
+Changed exception in to only match IOException
+Installer checks to see if .NET 2.0 is installed
+
+Fixed:
+Alert window now fades out like originally planned
+Filename case is now preserved
+Fixed SQL logging, see SQLHelp.txt
+Error condition when logging was incorrectly setup and log trying to open
+
+Known Bugs at Release:
+Emailing logging generates an error
+
+To Do (in no order):
+Add multicast option support
+Add documentation to TFTPServer class and GUI
+Review SendOptions method
+Create a TFTP client example program
+
+=========================================================================
+TFTPUtil Version 0.5.0
+
+Added/Changed:
+GUI now shows number of active transfers
+Toolstrip now shows listener IPs and port
+The GUI now checks that the TFTP class is listening
+GUI can now show outlook style alert upon connection with progress bar
+Created installer for debug binary using NSIS
+Images used in GUI are now apart of the resources in the solution
+TFTPState class now uses close in GetData
+
+Fixed:
+We now check if XML or file was last logger type because of error
+We now remove state when we receive an error message
+Earlier checking if TFTP listener started sucessfully
+Now checking to make sure the form is not disposing
+
+Known Bugs at Release:
+Emailing logging generates an error
+
+To Do (in no order):
+Add multicast option support
+Add documentation to TFTPServer class and GUI
+Check that we aren't swallowing other exceptions
+Review SendOptions method
+Installer should check to see if .NET is installed
+
+=========================================================================
+TFTPUtil Version 0.4.0
+
+Added/Changed:
+Adjusted listener check sleep in GUI
+Added timeout and resend options in GUI
+TFTPUtil Class and GUI are now seperate projects
+Added ability to change if we will hide the gui when minimized
+Added documentation to the TFTPState class
+Added option to change logging method to email, windows event, sql,
+	text file, or xml file (all use NSpring)
+
+Fixed:
+Had verbose and debug levels swapped
+More logging changes/fixes
+
+Known Bugs at Release:
+None
+
+To Do (in no order):
+Add multicast option support
+Add documentation to TFTPServer class and GUI
+Check that we aren't swallowing other exceptions
+Add ability to display popup when we transfer starts/stops
+Display percentage of file downloading
+Display number of open states
+
+=========================================================================
+TFTPUtil Version 0.3.0
+
+Added/Changed:
+GUI now checks to see if the server started
+Changed so all options are now in a dialog instead of on main form
+Options is now also on the context menu
+We now check the number of sessions before closing and if there are
+	active sessions we will verify you want to quit
+We now check to make sure that we aren't receiving more byte than than
+	we should
+Added support for netascii
+Options are now saved in the registry under TFTPUtil
+
+Fixed:
+Spelling mistakes
+Didn't show transfer time and rate for file pushed to server
+Fixed crash if another program was listening on the same port upon startup
+Fixed crash if stopped server and then closed form
+Found case where we would not delete state when we should
+Incorrectly reported seconds when receiving a file
+Fixed possible bug in receive file block check
+Fixed level of messages being sent to the GUI
+We now show a security message if your rights don't allow you to run
+
+Known Bugs at Release:
+None
+
+To Do (in no order):
+Add configureable timeout and resend to GUI
+Add multicast option support
+Add option to log to SQL server
+Add option to log to HTML file (maybe implement by using XML file)
+Add documentation
+Check that we aren't swallowing other exceptions
+
+=========================================================================
+TFTPUtil Version 0.2.4
+
+Added:
+Added TFTP Option Extension (RFC 2347)
+Added TFTP Transfer Size Option (RFC 2349)
+Added TFTP Timeout Interval Option (RFC 23490
+Added TFTP Blocksize Option (RFC 2348)
+
+Fixed:
+Problem determining if a TID was still active
+
+Known Bugs at Release:
+I don't think debug and verbose logging levels are working correctly
+
+To Do (in no order):
+Check RRQ and WRQ bytes received and make sure they are <=512
+Add Error 8 for TFTP options
+Finish GUI optionns
+Add netascii support that we forgot
+Add multicast option support
+Add option to log to SQL servere
+Add option to log to HTML file (maybe implement by using XML file)
+Check that we are deleting a state if we send an error
+Check that we aren't receiving more bytes than block size
+Add debug message to show we got ACK for option
